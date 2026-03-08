@@ -21,7 +21,6 @@ Components Used :
 • ESP32 Microcontroller
 • LoRa Module
 • OLED Display
-• Wi-Fi connectivity
 • GSM Module
 • Relay Module
 
