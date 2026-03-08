@@ -21,8 +21,8 @@ Components Used :
 • ESP32 Microcontroller
 • LoRa Module
 • OLED Display
-• GSM Module
 • Relay Module
+• Buzzer
 
 Working
 
@@ -37,7 +37,6 @@ Working
 • Then the location is shown on the OLED screen.
 • This is how the people helping the user know where they are.
 • The system also sends the location to an application or a web platform using Wi-Fi.
-• At the time the GSM module sends an SMS alert to the rescue teams.
 • This way everyone who needs to know is informed.
 • If needed, the relay module can even turn on a forest monitoring camera or a drone.
 • This helps with surveillance and rescue operations.
