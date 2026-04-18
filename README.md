@@ -1,43 +1,50 @@
-Project Title :
-LoRa Based Emergency Communication System.
+LORA-LINK 
 
-Description :
-This project helps people communicate in forest or remote areas without mobile network using LoRa technology.
+📌 Overview
+LoRaLink is a long-range wireless communication system built using ESP32 and LoRa modules.  
+It enables message transmission along with GPS location in areas without internet connectivity.
 
-Components Used :
+⚙️ Components Used
+- ESP32 ×2  
+- LoRa Module (SX1278) ×2  
+- GPS Module (NEO-6M)  
+- OLED Display  
+- Li-ion Battery  
 
-[ Transmitter ]
+🧠 How It Works
+1. User sends a message using ESP32  
+2. GPS module attaches location data  
+3. LoRa transmits the message wirelessly  
+4. Receiver ESP32 displays it on OLED  
+5. Data can also be sent to a website (optional)  
 
-• ESP32 Microcontroller
-• LoRa Module
-• GPS Module
-• Emergency Push Button
-• Battery
-• Battery Monitoring Circuit
+Features
+- 📡 Long-range communication  
+- 🌍 GPS location tracking  
+- ⚡ Low power consumption  
+- 🚫 No internet required  
+- 🧭 Real-time data transmission  
 
+Use Cases
+- Disaster communication  
+- Rural connectivity  
+- Military / border areas  
+- Forest communication  
 
-[ Receiver ]
+🎥 Demo
+https://drive.google.com/file/d/1Nt29Mtv242MfckeNcQ7TsQMZ6n1YbD_y/view?usp=sharing
 
-• ESP32 Microcontroller
-• LoRa Module
-• OLED Display
-• Relay Module
-• Buzzer
+🔗 Live Website
+👉 https://loralink.netlify.app
 
-Working
+👨‍💻 Team
+- Team Name : Signal Seekers  
+- Team Members : 2 
 
-• The user has to carry the transmitter device when they are traveling to a remote area.
-• This device is really important for the user's safety.
-• In case something bad happens, the user just needs to press the emergency button on the transmitter device.
-• The ESP32 then reads the GPS coordinates from the GPS module.
-• This helps the system figure out where the user is.
-• The location data is sent using the LoRa module.
-• The LoRa module is special because it can send messages over long distances.
-• The receiver ESP32 gets the LoRa message.
-• Then the location is shown on the OLED screen.
-• This is how the people helping the user know where they are.
-• The system also sends the location to an application or a web platform using Wi-Fi.
-• If needed, the relay module can even turn on a forest monitoring camera or a drone.
-• This helps with surveillance and rescue operations.
-• The system always checks the battery level.
-• This is to make sure the system keeps working without any problems.
+Future Improvements
+- Mobile app integration  
+- Encryption for security  
+- Solar-powered system  
+
+⭐ Show Your Support
+If you like this project, give it a ⭐ on GitHub!
