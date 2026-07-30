@@ -1,17 +1,17 @@
 LORA-LINK 
 
-📌 Overview
+Overview
 LoRaLink is a long-range wireless communication system built using ESP32 and LoRa modules.  
 It enables message transmission along with GPS location in areas without internet connectivity.
 
-⚙️ Components Used
+Components Used
 - ESP32 ×2  
 - LoRa Module (SX1278) ×2  
 - GPS Module (NEO-6M)  
 - OLED Display  
 - Li-ion Battery  
 
-🧠 How It Works
+How It Works
 1. User sends a message using ESP32  
 2. GPS module attaches location data  
 3. LoRa transmits the message wirelessly  
@@ -19,11 +19,11 @@ It enables message transmission along with GPS location in areas without interne
 5. Data can also be sent to a website (optional)  
 
 Features
-- 📡 Long-range communication  
-- 🌍 GPS location tracking  
-- ⚡ Low power consumption  
-- 🚫 No internet required  
-- 🧭 Real-time data transmission  
+- Long-range communication  
+- GPS location tracking  
+- Low power consumption  
+- No internet required  
+- Real-time data transmission  
 
 Use Cases
 - Disaster communication  
@@ -31,13 +31,12 @@ Use Cases
 - Military / border areas  
 - Forest communication  
 
-🎥 Demo
+Demo
 https://drive.google.com/file/d/1Nt29Mtv242MfckeNcQ7TsQMZ6n1YbD_y/view?usp=sharing
 
-🔗 Live Website
-👉 https://loralink.netlify.app
+Website link : https://lora-project-1806.web.app/
 
-👨‍💻 Team
+Team
 - Team Name : Signal Seekers  
 - Team Members : 2 
 
@@ -46,5 +45,5 @@ Future Improvements
 - Encryption for security  
 - Solar-powered system  
 
-⭐ Show Your Support
+Show Your Support
 If you like this project, give it a ⭐ on GitHub!
